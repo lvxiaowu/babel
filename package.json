@@ -1,10 +1,10 @@
 {
   "name": "babel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "commit": "git cz"
+    "commit": "git add . && git cz"
   },
   "author": "",
   "license": "ISC",
