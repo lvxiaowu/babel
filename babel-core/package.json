@@ -7,6 +7,7 @@
     "build": "babel main.js --out-dir build --out-file-extension .mjs --source-maps"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.14.5",

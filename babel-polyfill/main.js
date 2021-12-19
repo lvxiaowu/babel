@@ -1,17 +1,10 @@
-// import util from "./utils";
+// useBuiltIns:entry ,需要手动引入  import '@bable/polyfill';
+// import '@bable/polyfill';
 
-// function a(args) {
-//   console.log(...args);
-//   console.log([...arguments]);
-// }
+let array = [1, 2, 3, 4, 5, 6];
+array.includes((item) => item > 2);
 
-import "@bable/polyfill";
-// index.js
-const fn = () => {
-    console.log("wens");
-  };
-  const p = new Promise((resolve, reject) => {
-    resolve("wens");
-  });
-  const list = [1, 2, 3, 4].map(item => item * 2);
-  
+Object.assign({}, { a: 1, b: 2 });
+
+Array.isArray([]);
+new Promise();

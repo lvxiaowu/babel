@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel main.js --out-dir build --out-file-extension .mjs --source-maps"
+    "build": "babel main.js --out-dir build"
   },
   "author": "",
   "license": "ISC",

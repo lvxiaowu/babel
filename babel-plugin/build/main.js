@@ -6,4 +6,3 @@
 
 let nick = "Babel";
 let desc = "hello ".concat(nick);
-//# sourceMappingURL=main.mjs.map

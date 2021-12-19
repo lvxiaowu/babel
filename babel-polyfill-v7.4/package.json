@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
-    "build": "babel main.js --out-dir build "
+    "babel": "babel main.js --out-dir build "
   },
   "author": "",
   "license": "ISC",

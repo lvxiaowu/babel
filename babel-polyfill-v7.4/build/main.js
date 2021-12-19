@@ -1,27 +1,20 @@
 "use strict";
 
+require("core-js/modules/es.array.includes.js");
+
+require("core-js/modules/es.object.assign.js");
+
 require("core-js/modules/es.object.to-string.js");
 
 require("core-js/modules/es.promise.js");
 
-require("core-js/modules/es.array.map.js");
-
-// index.js
-var fn = function fn() {
-  console.log("wens");
-};
-
-var p = new Promise(function (resolve, reject) {
-  resolve("wens");
+var array = [1, 2, 3, 4, 5, 6];
+array.includes(function (item) {
+  return item > 2;
 });
-var list = [1, 2, 3, 4].map(function (item) {
-  return item * 2;
-}); // index.js
-// class Person {
-//     constructor(name) {
-//       this.name = name;
-//     }
-//     say() {
-//       console.log(this.name);
-//     }
-//   }
+Object.assign({}, {
+  a: 1,
+  b: 2
+});
+Array.isArray([]);
+new Promise();
